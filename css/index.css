@@ -1,0 +1,244 @@
+body{
+    width: 100%;
+    opacity: 100;
+    background-color: rgba(212, 212, 212, 0.993);
+}
+.amanuel{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(212, 212, 212, 0.993);
+    top: 0;bottom: 0;left: 0;right: 0;
+}
+
+.nav {
+    background-color: rgba(212, 212, 212, 0.993);
+    position: fixed;
+    height: inherit;
+    transition: width ease .6s;
+    width: 5%;
+    top: 0;
+}
+nav{
+    position:sticky;
+    margin-top:50%;
+}
+.bx{
+ font-size: 30px;
+ align-items: center;
+}
+.link,.pp{
+    display: inline-block;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    padding:10px;
+    list-style: none;
+    cursor: pointer; 
+    border: none;
+    box-sizing: border-box;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+  
+    transition: 0.3s;
+
+}
+a.link:hover{
+    background-color:rgba(7, 63, 247, 0.548);
+    transition:0.5s;
+    border-left: solid 5px rgb(1, 26, 255);
+    color: rgb(255, 255, 255);
+}
+.pp{
+    position:absolute;
+    bottom: 0px;
+    border-radius: 50px;
+    margin-left: 10px;
+    padding:10px;
+    
+}
+.pp:hover{
+    background-color: rgb(4, 0, 255);
+    color: rgb(255, 255, 255);
+    padding:20px;
+    transition: 0.5s;
+}
+
+
+.aman{
+    background-color:rgba(212, 212, 212, 0.993);
+
+    width: 74.5%;
+    height:inherit;
+    margin-left: 5%;
+}
+.story_board{
+    margin: 1%;
+    max-width: 100%; 
+    height: 100%;
+    overflow: hidden;
+}
+.aman_story{
+    display:flex;
+    background-color: rgb(255, 255, 255);
+    max-height:100%;
+    width:100%;
+    border-radius:15px;
+  
+
+}
+p{
+    border: solid 1px rgb(255, 0, 0);
+    width: 10%;
+    top: 0;
+    position:center;
+    font-family: cursive;
+    font-weight: 300;
+    font-size:30px
+    
+}
+.post{
+    padding: 2px;
+    margin: 5%;
+   max-width: 90%;
+    max-height:500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 13px;
+    overflow:hidden;
+}
+.p_photo{
+    float:left;
+    border: solid 1px;
+    background-color: rgba(255, 0, 0, 0.486);
+    width:50px;
+    height:50px;
+    margin-top:10px;
+    margin-left:20px;
+    border-radius: 100%;
+    overflow: hidden;
+    z-index: 6;
+    align-items: center;
+}
+.a{
+margin-left:80px;
+  text-decoration: none;
+  display:block;
+   
+}
+.container{
+    float:left;
+    display: flex;
+}
+.pospic{
+    background-color:rgb(255, 255, 255);
+   display:left;
+    width: 60%;
+    height: 80%;
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 13px;
+    overflow: hidden;
+}
+.postpicc{
+   
+    overflow: hidden;
+    width:100% ;
+}
+.post_p{ 
+    background-color:black;
+    border: solid 1px;
+    width: 10%;
+    height: 10%;
+    border-radius:50%;
+    margin:10%;
+}
+.ppp{
+    width: 100px;
+}
+
+
+.profile{
+    border: solid 1px;
+    background-color: rgba(0, 0, 0, 0.486);
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-height:90%;
+    max-width:10%;
+    min-width: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+
+
+img{
+    
+    display: block;
+    max-width: 100%;
+    transition:0.7s;
+    box-sizing: border-box;
+    }
+    .profile:hover{
+      z-index: 2;
+      background-image: linear-gradient(rgba(42, 6, 88, 0.199));
+    }
+    .comment{
+        margin-left: 10px;
+       border-radius: 3px;
+        box-shadow: 0 10px 25px rgb(92 99 105 / 20%);
+        width: 40%;
+        display:block;
+        height:390px;
+    }
+.bedri{
+    position:fixed;
+    background-color: rgba(212, 212, 212, 0.993);
+    width: 20%;
+    float: right;
+    top: 0;
+    right:0;
+    z-index: 2;
+    height:inherit;
+    
+}
+.advert{
+    width: 90%;
+    background-color: #FFF;
+    height:30%;
+    margin:5%;
+    left: 10%;
+    border-radius:15px;
+    overflow: hidden;
+   
+
+}
+@media  screen and (max-width: 768px){
+    .amanuel{
+        width: 100%;
+       
+    }
+    .aman{
+        display:absolute;
+        margin-left: 0;
+        width: 736px;
+        background-color: rgb(226, 0, 0);
+    }
+    nav.nav-{
+        display: none;
+    }
+    .nav {
+        display: none;
+    }
+    nav{
+        display:none;
+        position:sticky;
+        margin-top:50%;
+    }
+    .bedri{
+        display:none;
+    }
+    .post{
+        width:100%;
+    }
+}
